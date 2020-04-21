@@ -31,7 +31,7 @@ class EditStudent : RComponent<EditStudentProps, EditStudentState>() {
     fun onClickEdit() = { _: Event ->
         setState {
             isEdit = !state.isEdit
-            state.student = props.student.copy()
+            student = props.student.copy()
         }
     }
 

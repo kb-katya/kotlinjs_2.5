@@ -26,7 +26,6 @@ class EditLesson : RComponent<EditLessonProps, EditLessonState>() {
 
     override fun componentWillMount() {
         state.lesson = props.lesson.copy()
-        console.log("THIS")
     }
 
     fun onClickEdit() = { _: Event ->
