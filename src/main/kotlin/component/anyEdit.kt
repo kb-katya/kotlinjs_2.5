@@ -49,7 +49,7 @@ fun <O> RBuilder.anyEdit(
     onClickRemove: (Int) -> (Event) -> Unit,
     onClickNew: (Event) -> Unit
 ) = child(
-    withDisplayName("Edit Objects",  fAnyEdit(rComponentEdit, rComponentView))
+    withDisplayName("Edit Elements",  fAnyEdit(rComponentEdit, rComponentView))
 ){
     attrs.objects = objects
     attrs.onClickSubmit = onClickSubmit
